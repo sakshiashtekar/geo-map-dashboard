@@ -27,26 +27,23 @@ public/
 #Features:
 1. Data Table:
 Displays:
-    Project Name
-    Latitude
-    Longitude
-    Status
+    Project Name,
+    Latitude,
+    Longitude,
+    Status,
     Last Updated
-Supports:
-    Client-side pagination
-    Sorting
-    Client-side filtering (search by project name)
+Supports: Client-side pagination, Sorting, Client-side filtering (search by project name)
 
 2. Map Integration:
-    Uses Leaflet map
-    Plots markers using latitude and longitude
-    Clicking a table row highlights the corresponding marker
-    Clicking a marker highlights the corresponding table row
-    Map only displays markers for the currently visible table page to avoid clutter
+    1.Uses Leaflet map
+    2.Plots markers using latitude and longitude
+    3.Clicking a table row highlights the corresponding marker
+    4.Clicking a marker highlights the corresponding table row
+    5.Map only displays markers for the currently visible table page to avoid clutter
 
 3. State Management:
-    Uses only React local state (useState, useEffect, useMemo)
-    No Redux or external state libraries
+    1.Uses only React local state (useState, useEffect, useMemo)
+    2.No Redux or external state libraries
 
 #Performance Strategy:
 1. MUI DataGrid virtualization handles large datasets efficiently
