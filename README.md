@@ -25,14 +25,12 @@ public/
 
 
 #Features:
-1. Data Table:
-Displays:
+1. Data Table: Client-side pagination, Sorting, Client-side filtering (search by project name) and displays:
     Project Name,
     Latitude,
     Longitude,
     Status,
     Last Updated
-Supports: Client-side pagination, Sorting, Client-side filtering (search by project name)
 
 2. Map Integration:
     1.Uses Leaflet map
